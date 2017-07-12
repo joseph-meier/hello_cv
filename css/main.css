@@ -29,6 +29,26 @@ font-family: 'Average', serif;
  align-items: center;
  justify-content: center;
 }
+
+#team-list {
+    display: -webkit-flex;
+	font-size: 30px;
+	font-family: 'Spectral', serif;
+	-webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(https://media.giphy.com/media/109synC4N3qsuc/giphy.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+}
+
+#momarrow {
+    position: absolute;
+    height: 600px;right: 200px;
+}
+
 #intro {
     color: black;
 font-family: 'Average', serif;
@@ -79,6 +99,7 @@ font-family: 'Average', serif;
     width:100%;
     height: ;
     left: 0px;
+    box-sizing: 0px;
     bottom: 250px;
     color: black;
     font-size: 69px;
@@ -185,12 +206,12 @@ font-family: 'Average', serif;
   padding: 0;
   margin: 0;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  position: relative;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
@@ -208,19 +229,11 @@ font-family: 'Average', serif;
     padding-right: 100px;
 }
 
-#thanks {
-    padding: 0;
-  margin: 0;
-  list-style: none;
-  font-family: 'Average', serif;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+#thanks {    
+    -webkit-flex-direction: column;
+    font-family: 'Average', serif;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 #say-hello {
@@ -235,108 +248,4 @@ font-family: 'Average', serif;
     padding-right: 100px;
 }
 
-#UL_1 {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    height: 350.938px;
-    text-align: left;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
-    text-size-adjust: 100%;
-    width: 400px;
-    column-rule-color: rgba(0, 0, 0, 0.85);
-    perspective-origin: 200px 175.469px;
-    transform-origin: 200px 175.469px;
-    caret-color: rgba(0, 0, 0, 0.85);
-    border: 0px none rgba(0, 0, 0, 0.85);
-    font: normal normal normal normal 43.0254px / 53.7817px Fort;
-    list-style: none outside none;
-    margin: 0px;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
-    padding-left: 100px;
-    padding-right: 100px;
-}/*#UL_1*/
 
-#LI_2, #LI_4, #LI_6, #LI_8, #LI_10 {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    height: 70.1875px;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
-    text-size-adjust: 100%;
-    width: 400px;
-    column-rule-color: rgba(0, 0, 0, 0.85);
-    perspective-origin: 200px 35.0938px;
-    transform-origin: 200px 35.0938px;
-    caret-color: rgba(0, 0, 0, 0.85);
-    border: 0px none rgba(0, 0, 0, 0.85);
-    font: normal normal normal normal 43.0254px / 53.7817px Fort;
-    list-style: none outside none;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
-    padding: 8.60508px 0px;
-}/*#LI_2, #LI_4, #LI_6, #LI_8, #LI_10*/
-
-#A_3, #A_5, #A_9 {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    text-align: left;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
-    text-size-adjust: 100%;
-    column-rule-color: rgba(0, 0, 0, 0.85);
-    caret-color: rgba(0, 0, 0, 0.85);
-    border-top: 0px none rgba(0, 0, 0, 0.85);
-    border-right: 0px none rgba(0, 0, 0, 0.85);
-    border-bottom: 4px solid rgb(0, 0, 0);
-    border-left: 0px none rgba(0, 0, 0, 0.85);
-    font: normal normal normal normal 43.0254px / 53.7817px Fort;
-    list-style: none outside none;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
-}/*#A_3, #A_5, #A_9*/
-
-#A_7 {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    
-    text-align: left;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
-    text-size-adjust: 100%;
-    column-rule-color: rgba(0, 0, 0, 0.85);
-    caret-color: rgba(0, 0, 0, 0.85);
-    border-top: 0px none rgba(0, 0, 0, 0.85);
-    border-right: 0px none rgba(0, 0, 0, 0.85);
-    border-bottom: 4px solid rgb(0, 0, 0);
-    border-left: 0px none rgba(0, 0, 0, 0.85);
-    font: normal normal normal normal 43.0254px / 53.7817px Fort;
-    list-style: none outside none;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
-}/*#A_7*/
-
-#A_11 {
-    box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.85);
-    
-    text-align: left;
-    text-decoration: none solid rgba(0, 0, 0, 0.85);
-    text-size-adjust: 100%;
-    column-rule-color: rgba(0, 0, 0, 0.85);
-    caret-color: rgba(0, 0, 0, 0.85);
-    border-top: 0px none rgba(0, 0, 0, 0.85);
-    border-right: 0px none rgba(0, 0, 0, 0.85);
-    border-bottom: 4px solid rgb(0, 0, 0);
-    border-left: 0px none rgba(0, 0, 0, 0.85);
-    font: normal normal normal normal 43.0254px / 53.7817px Fort;
-    list-style: none outside none;
-    outline: rgba(0, 0, 0, 0.85) none 0px;
-}/*#A_11*/
-
-#team-list {
-    display: -webkit-flex;
-	font-size: 30px;
-	font-family: 'Spectral', serif;
-	-webkit-text-fill-color: transparent;
- background: -webkit-linear-gradient(transparent, transparent),
-             url(https://media.giphy.com/media/109synC4N3qsuc/giphy.gif) repeat;
- background: -o-linear-gradient(transparent, transparent);
- -webkit-background-clip: text;
- text-align: center;
- align-items: center;
- justify-content: center;
-}
